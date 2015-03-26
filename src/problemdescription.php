@@ -5,8 +5,7 @@
 	<title>训练平台 四川大学软件学院信息安全与网络攻防协会</title>
 	<?php
 	session_start();
-	session_start();
-	if (!isset($_SESSION['valid_user'])) {
+    if (!isset($_SESSION['valid_user'])) {
 		echo '<script>window.location.href="index.php";</script>';
 	}
 	require('../header.inc.php');

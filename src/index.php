@@ -12,9 +12,9 @@ if(isset($_SESSION['valid_user']))
 <html lang="en">
 <title>训练平台 四川大学信息安全与网络攻防协会</title>
 <?php
-	require('../header.inc.php');
+	require('./include/header.inc.php');
 	$_home_class='""';$_blog_class='""';$_game_class='""';$_train_class='"active"';$_about_class='"dropdown"';
-	require_once('../navi.inc.php');
+	require_once('./include/navi.inc.php');
 ?>
 
 <header id="head" class="secondary"></header>
@@ -70,7 +70,7 @@ if(isset($_SESSION['valid_user']))
 	</div>
 
 	<?php
-	require_once('../footer.inc.php');
+	require_once('./include/footer.inc.php');
 	?>
 </body>
 </html>

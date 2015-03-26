@@ -4,7 +4,7 @@
     <title>训练平台 四川大学信息安全与网络攻防协会</title>
     <?php
       session_start();
-      require('../header.inc.php');
+      require('./include/header.inc.php');
     ?>
     <script src="/assets/js/jQuery.headroom.min.js" type="text/javascript"></script>
     <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
@@ -91,5 +91,5 @@
       </div>
     </div>
 </body>
-<?php require('../footer.inc.php');?>
+<?php require('./include/footer.inc.php');?>
 </html>
